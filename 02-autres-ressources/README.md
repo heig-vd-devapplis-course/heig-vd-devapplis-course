@@ -22,14 +22,16 @@ Bonjour tout le monde,
 
 Nous espérons que vous allez bien.
 
-Noemi et moi-même serons vos enseignants pour le cours "Développer une application web simple (DévAppliS)". Nous nous réjouissons de vous retrouver la semaine prochaine pour vivre cette semaine ensemble.
+Noemi et moi-même serons vos enseignants pour le cours "Développer une application web simple (DévAppliS)". Nous nous réjouissons de vous retrouver la semaine prochaine **en R102, à 13:00** pour vivre cette expérience ensemble.
+
+Nous commencerons avec une introduction du cours avec le mandant externe qui sera présent pour vous présenter le projet que vous allez réaliser durant la semaine.
 
 Vous trouverez toutes les informations sur le cours dans le dépôt GitHub suivant : https://github.com/heig-vd-devapplis-course/heig-vd-devapplis-course.
 
-Lundi après-midi, nous commencerons par une introduction avec le mandant du cours. Toutes les informations vous seront communiquées lors de cette introduction, mais vous pouvez déjà consulter les ressources disponibles dans le dépôt GitHub pour vous familiariser avec le cours si vous le souhaitez.
+**Nous vous demandons de prendre connaissance du README principal de ce dépôt GitHub avant le début du cours.** Le contenu n'est pas très long, mais il contient des informations importantes sur le cours, notamment les objectifs, les formations des groupes, les modalités d'évaluation et les ressources disponibles.
 
 Si vous avez des questions, n'hésitez pas à nous contacter.
 
 Nous vous souhaitons une bonne journée et à bientôt,
-Ludovic Delafontaine et Noemi Romano
+Ludovic Delafontaine, Noemi Romano et Cédric Junillon
 ```

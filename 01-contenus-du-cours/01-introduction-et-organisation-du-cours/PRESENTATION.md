@@ -89,7 +89,7 @@ Tout est décrit dans le
 - Développer une application web simple par équipe de deux.
 - Respect des bonnes pratiques de développement en équipe.
 - Travail en autonomie, avec quelques présentations et points de
-  synchronisation.
+  synchronisation. Nous sommes là pour vous accompagner.
 
 <center>
 

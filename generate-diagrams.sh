@@ -2,7 +2,7 @@
 
 ## Variables
 WORKDIR=$(pwd)
-PLANTUML_DOCKER_IMAGE="plantuml/plantuml:1.2026"
+PLANTUML_DOCKER_IMAGE="plantuml/plantuml:1.2026.2"
 
 ## Script
 # Check if PlantUML is available locally

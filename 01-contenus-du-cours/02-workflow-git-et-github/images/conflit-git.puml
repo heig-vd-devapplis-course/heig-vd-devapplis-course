@@ -1,0 +1,318 @@
+@startuml conflit-git
+skinparam boxPadding 100
+skinparam maxMessageSize 300
+skinparam sequenceMessageAlign direction
+skinparam wrapWidth 250
+autonumber
+hide footbox
+
+' Uncomment to visualize the diagram in multiparts
+' !define MULTI_PART
+
+!$TITLE = "Scénario du workflow Git et GitHub avec gestion de conflit"
+
+!if (%variable_exists("MULTI_PART"))
+  right footer $TITLE (%page%/%lastpage%) 
+!else
+  ignore newpage
+!endif
+
+title $TITLE
+
+participant "Alice\n(Dépôt local)" as alice #LightGreen
+participant "GitHub\n(Dépôt distant)" as github #LightBlue
+participant "Bob\n(Dépôt local)" as bob #LightCoral
+
+== Étape 0 : état actuel du dépôt de code ==
+
+note over alice, bob
+    A ce stade, le dépôt de code contient quelques fichiers, dont un fichier ""README.md"" avec le contenu suivant :
+
+    ""# Titre du projet""
+
+    ""Une courte description du projet.""
+
+    ""## TODO""
+
+    ""- Créer la page d'accueil.""
+    ""- Mettre à jour la documentation.""
+
+    Ici, le fichier ""README.md"" est utilisé pour décrire les tâches à réaliser. L'équipe souhaite améliorer sa manière de travailler en utilisant un workflow Git/GitHub plus efficace.
+
+    Les étapes suivantes décrivent comment gérer un conflit avec une situation simple. Dans la vraie vie, il n'est pas impossible que cette même situation n'entraîne //pas// de conflits (car Git est assez fort pour gérer pleins de cas de figure), mais le principe reste valide.
+endnote
+
+newpage $TITLE
+
+== Étape 1 : création des issues ==
+
+note over alice
+    Alice identifie une tâche et crée une issue pour la suivre sur GitHub.
+end note
+
+alice -> github: Créer **Issue #1** //"Créer la page d'accueil"//
+
+note over bob
+    Bob crée aussi une issue pour sa tâche pour la suivre sur GitHub.
+end note
+
+bob -> github: Créer **Issue #2** //"Mettre à jour la documentation"//
+
+newpage $TITLE
+
+== Étape 2 : création des branches depuis les issues ==
+
+alice -> github: Alice crée une branche depuis l'Issue #1
+github -> github: GitHub crée automatiquement une branche et propose les commandes nécessaires pour récupérer la branche localement.
+
+bob -> github: Bob crée une branche depuis l'Issue #2
+github -> github: GitHub crée automatiquement une branche et propose les commandes nécessaires pour récupérer la branche localement.
+
+note over alice,bob
+    A ce stade, Alice et Bob partent de la même version de la branche ""main"".
+endnote
+
+newpage $TITLE
+
+== Étape 3 : récupération des branches localement ==
+
+alice -> alice: Alice récupère la branche distante avec la commande ""git fetch""
+alice --> github: //Demande de récupérer les dernières modifications distantes.//
+github --> alice: GitHub retourne les nouvelles branches à Alice.
+alice -> alice: Alice bascule sur sa branche avec la commande ""git checkout 1-créer-la-page-daccueil""
+
+bob -> bob: Bob récupère la branche distante avec la commande ""git fetch""
+bob --> github: //Demande de récupérer les dernières modifications distantes.//
+github --> bob: GitHub retourne les nouvelles branches à Bob.
+bob -> bob: Bob bascule sur sa branche avec la commande ""git checkout 2-mettre-à-jour-la-documentation""
+
+note over alice,bob
+    La commande ""git fetch"" permet d'interroger le dépôt Git distant sur GitHub pour savoir s'il y a des nouvelles modifications disponibles.
+
+    La commande ""git checkout"" permet de basculer sur la nouvelle branche qui a été récupérée
+endnote
+
+newpage $TITLE
+
+== Étape 4 : travail sur la branche ==
+
+alice -> alice: Alice ajoute son travail avec la commande ""git add index.php"".
+alice -> alice: Alice commit son travail avec la commande ""git commit -m "Création de la page index.php"""
+alice -> alice: Alice pousse son travail avec la commande ""git push""
+alice --> github: //Les modifications locales sont poussées sur GitHub.//
+
+note over alice, bob
+    Alice commit et push régulièrement ses modifications. Ce n'est pas un problème d'avoir plusieurs commits sur la même branche.
+
+    **Dès le premier commit, il est conseillé de créer une pull request (PR)** pour suivre l'évolution de la branche et faciliter la revue de code.
+
+    Cela permet également d'informer les autres membres de l'équipe que le travail lié à l'issue #1 a commencé, même s'il n'est pas encore terminé.
+end note
+
+newpage $TITLE
+
+== Étape 5 : création de la pull request (PR) ==
+
+alice -> github: Alice crée la pull request (PR) sur GitHub : //"Créer la page d'accueil"//.
+github -> github: GitHub crée une PR avec toutes les (futures) modifications apportées à la branche.
+
+note over alice, bob
+    GitHub propose de créer une PR uniquement s'il y a au moins une modification apportée à la branche.
+
+    Il prend le nom du message de commit comme proposition de titre de PR. **Il est recommandé de donner le même nom que l'issue pour garder une cohérence et un historique clair.**
+endnote
+
+newpage $TITLE
+
+== Étape 6 : suite du travail sur la branche ==
+
+alice -> alice: Alice modifie le fichier **README.md ligne 3**\n""## TODO""\n→\n""## Page 'index.php'""\n\n""La page d'accueil contient la description du projet.""
+
+note over alice, bob
+    Ici, Alice modifie le fichier ""README.md"" pour remplacer le ""TODO"" présent pour annoncer les changements qu'elle a effectué avec la nouvelle page pour documenter son travail.
+endnote
+
+alice -> alice: Alice ajoute son travail avec la commande ""git add README.md"".
+alice -> alice: Alice commit son travail avec la commande ""git commit -m "Mise à jour de la documentation"""
+alice -> alice: Alice pousse son travail avec la commande ""git push""
+alice --> github: //Les modifications locales sont poussées sur GitHub.//
+github -> github: La PR //"Créer la page d'accueil"// est mise à jour.
+
+newpage $TITLE
+
+bob -> bob: Bob modifie le fichier **README.md ligne 3**\n""## TODO""\n→\n""## Documentation""\n\n""Ce projet est construit avec PHP [...].""
+bob -> bob: Bob ajoute son travail avec la commande ""git add README.md"".
+bob -> bob: Bob commit son travail avec la commande ""git commit -m "Ajout de la documentation""
+bob -> bob: Bob pousse son travail avec la commande ""git push""
+bob --> github: //Les modifications locales sont poussées sur GitHub.//
+bob -> github: Bob crée la pull request (PR) sur GitHub : //"Mettre à jour la documentation"//.
+github -> github: GitHub crée une PR avec toutes les (futures) modifications apportées à la branche.
+
+note over alice, bob
+    Ici, Bob modifie le fichier ""README.md"" pour remplacer le ""TODO"" présent pour annoncer les changements qu'il a effectué avec la documentation.
+
+    Bien que les tâches d'Alice et Bob soient bien distinctes, il n'est pas impossible que des fichiers similaires doivent être modifiés par plusieurs personnes.
+
+    Ce n'est pas un problème, Git peut gérer ces cas relativement facilement.
+end note
+
+newpage $TITLE
+
+== Étape 7 : Revue et fusion de la PR #1 ==
+
+alice -> github: Alice revoit sa PR pour s'assurer que tout est OK. Si c'est le cas, elle ajoute Bob en tant que reviewer de son travail.
+github --> bob: Bob reçoit une invitation à revoir la PR d'Alice.
+bob -> github: Bob revoit la PR d'Alice. Si tout est OK, il approuve la PR, sinon il demande des changements.
+github -> github: Une fois la PR approuvée et fusionnée, GitHub se charge de fusionner la branche ""1-créer-la-page-daccueil"" dans la branch ""main"".
+github -> github: GitHub ferme automatiquement l'issue #1\nGitHub supprime la branche ""1-créer-la-page-daccueil"".
+
+note over alice, bob
+    L'issue #1 est automatiquement fermée par GitHub.
+    
+    La branche d'Alice peut également être supprimée pour garder le dépôt propre.
+
+    La branche ""main"" contient maintenant les modifications d'Alice :
+
+    **README.md ligne 3**
+    
+    ""## Page 'index.php'""
+    
+    ""La page d'accueil contient la description du projet.""
+end note
+
+newpage $TITLE
+
+== Étape 8 : Revue de la PR #2 et tentative de fusion ==
+
+bob -> github: Bob revoit sa PR pour s'assurer que tout est OK. Si c'est le cas, il ajoute Alice en tant que reviewer de son travail.
+github --> alice: Alice reçoit une invitation à revoir la PR de Bob.
+alice -> github: Alice revoit la PR de Bob. Si tout est OK, elle approuve la PR, sinon elle demande des changements.
+github -> github: Bob tente de fusionner sa PR, mais GitHub détecte un conflit avec les modifications d'Alice qui ont déjà été fusionnées dans ""main"".
+
+note over alice, bob
+    GitHub affiche un message d'erreur indiquant que la PR de Bob ne peut pas être fusionnée automatiquement à cause d'un conflit.
+
+    Le conflit est dû au fait que les deux développeurs ont modifié la même ligne du même fichier (""README.md"" ligne 3) à partir du même état initial. Alice a fusionné en premier, donc la branche de Bob est basée sur l'ancien état (sans les changements d'Alice), ce qui entraîne un conflit que Git ne peut pas résoudre automatiquement.
+end note
+
+newpage $TITLE
+
+== Étape 9 : récupération des modifications de la branche ""main"" localement ==
+
+note over alice, bob
+    Bob doit mettre à jour sa branche avec les dernières modifications de ""main"".
+end note
+
+bob -> bob: Bob s'assure d'être sur sa branche avec la commande ""git checkout 2-mettre-à-jour-la-documentation""
+bob -> bob: Bob récupère les modifications de la branche ""main"" avec la commande ""git pull origin main""
+bob --> github: //Demande de récupérer les dernières modifications distantes de la branche ""main"".//
+github --> bob: GitHub retourne les modifications de ""main"" à Bob.
+bob -> bob: Bob fusionne la branche ""main"" dans sa branche locale avec la commande ""git merge main""
+
+note over alice, bob
+    Ici, Bob fusionne les dernières modifications de ""main"" dans la branche actuelle (""2-mettre-à-jour-la-documentation"").
+    
+    Git détecte alors un conflit dans le fichier ""README.md"" à la ligne 3, car les deux branches ont modifié cette même ligne de manière différente.
+end note
+
+bob -> bob: Git détecte un conflit dans **README.md** à la ligne 3.
+
+newpage $TITLE
+
+== Étape 10 : résolution du conflit ==
+
+bob -> bob: Visualise le conflit dans **README.md**\nGit affiche les sections conflictuelles avec des marqueurs spéciaux qui décrivent les sections de code en conflit.
+
+note over alice, bob
+    Bob doit éditer manuellement le fichier ""README.md"" pour choisir ou combiner les versions d'Alice et de Bob.
+    
+    Git affiche le conflit:
+
+    ""<<<<<<< HEAD (version de Bob)""
+    ""## Documentation""
+    ""======= (séparateur entre les deux versions)""
+    ""## Page 'index.php'""
+    "">>>>>>> main (version d'Alice)""
+
+    Bob peut choisir de garder la version d'Alice, la version de Bob, ou une combinaison des deux.
+end note
+
+newpage $TITLE
+
+bob -> bob: Bob édite manuellement le fichier ""README.md"".\nIl choisi ou combine les versions.
+bob -> bob: Bob ajoute son travail avec la commande ""git add README.md""
+bob -> bob: Bob commit son travail avec la commande ""git commit -m "Résolution conflit avec main""
+bob -> github: Bob pousse son travail avec la commande ""git push""
+bob --> github: //Pousser les modifications locales avec la résolution du conflit.//
+github -> github: La PR est mise à jour avec la résolution du conflit.
+
+note over alice, bob
+    Bob a résolu le conflit localement en décidant de combiner les deux versions pour garder les informations d'Alice et de Bob dans le fichier final.
+
+    Pour cela, il modifie le fichier pour qu'il ressemble à ceci:
+
+    ""## Documentation""
+
+    ""Ce projet est construit avec PHP [...].""
+
+    ""### Page 'index.php'""
+    
+    ""La page d'accueil contient la description du projet.""
+    
+    Puis, il l'a ajouté et le committé pour enregistrer la résolution du conflit.
+    
+    Ensuite, il a poussé les modifications sur GitHub pour mettre à jour la PR avec la résolution du conflit.
+end note
+
+newpage $TITLE
+
+== Étape 11 : fusion réussie ==
+
+github -> github: Bob peut maintenant fusionner sa PR sans problème, car le conflit a été résolu.
+github -> github: GitHub fusionne la branche ""2-mettre-à-jour-la-documentation"" dans ""main"".
+github -> github: GitHub ferme automatiquement l'issue #2\nGitHub supprime la branche ""2-mettre-à-jour-la-documentation"".
+
+note over github, bob
+    La PR de Bob est maintenant fusionnée avec succès dans ""main"".
+    
+    L'issue #2 est automatiquement fermée par GitHub.
+    
+    La branche de Bob peut également être supprimée pour garder le dépôt propre.
+end note
+
+newpage $TITLE
+
+== Étape 12 : la boucle de développement continue ==
+
+note over alice, bob
+    Alice et Bob continuent à travailler sur de nouvelles tâches en suivant le même workflow: créer des issues, créer des branches, faire des PR, revoir et fusionner les PR, gérer les conflits si nécessaire.
+
+    Ce workflow permet de maintenir un historique clair et organisé du développement du projet, tout en facilitant la collaboration entre les membres de l'équipe.
+end note
+
+newpage $TITLE
+
+== Pourquoi le conflit s'est produit? ==
+
+note over alice, bob
+    **Cause du conflit**
+    
+    - Les deux développeurs ont créé des issues **indépendantes**.
+    - Ils ont modifié la **même ligne du même fichier** à partir du **même état initial**.
+    - Alice a fusionné en premier (PR #1).
+    - La branche de Bob était basée sur l'ancien état (sans les changements d'Alice de la PR #1).
+    - Git ne peut pas décider automatiquement → résolution manuelle.
+    
+    **Pour éviter/minimiser les conflits**
+
+    - **Communiquer** sur qui travaille sur quels fichiers/fonctionnalités.
+    - Vérifier les issues existantes avant d'en créer une nouvelle.
+    - Faire des **PR petites et fréquentes** (fusionner rapidement).
+    - Mettre à jour régulièrement: **git pull origin main**.
+    - Utiliser des **branches de courte durée**.
+    - Découper les tâches pour limiter les modifications simultanées.
+
+    **Les conflits sont inévitables.** Le scénario présenté permet de les résoudre sans grande difficulté.
+end note
+
+@enduml
