@@ -88,12 +88,15 @@ Tout est décrit dans le
 - Projet amené par un.e mandant.e externe.
 - Développer une application web simple par équipe de deux.
 - Respect des bonnes pratiques de développement en équipe.
-- Tout est décrit dans le
-  [dépôt GitHub du cours](https://github.com/heig-vd-devapplis-course/heig-vd-devapplis-course)
-  avec, en autres :
-  - Consignes et grille d'évaluation.
-  - Données à disposition.
-  - Organisation des groupes.
+- Travail en autonomie, avec quelques présentations et points de
+  synchronisation.
+
+<center>
+
+**Toutes les informations nécessaires sont décrites dans le
+[dépôt GitHub du cours](https://github.com/heig-vd-devapplis-course/heig-vd-devapplis-course).**
+
+</center>
 
 ## Aide à votre disposition
 
