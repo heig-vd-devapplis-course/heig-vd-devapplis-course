@@ -41,6 +41,44 @@ adresse][contenu-complet-sur-github].
 
 <!-- _class: lead -->
 
+## Qui sommes-nous ?
+
+<div class="three-columns">
+<div class="center">
+
+**Ludovic  
+Delafontaine**
+
+<img src="https://avatars.githubusercontent.com/u/5037444?v=4" alt="Ludovic Delafontaine" width="200" class="rounded">
+
+Enseignant  
+@[HEIG-VD](https://heig-vd.ch/)
+
+</div>
+<div class="center">
+
+**Noemi  
+Romano**
+
+<img src="https://avatars.githubusercontent.com/u/32194904?v=4" alt="Noemi Romano" width="200" class="rounded">
+
+Enseignante  
+@[HEIG-VD](https://heig-vd.ch/)
+
+</div>
+<div class="center">
+
+**Cédric  
+Junillon**
+
+<img src="https://media.licdn.com/dms/image/v2/C5603AQFjIaFJRM8sQQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517666644837?e=1781136000&v=beta&t=-ccCwkHHPH0er9oANiOq8byfuXSdsuvVtPvJlAG0zsc" alt="Cédric Junillon" width="200" class="rounded">
+
+Partenaire externe  
+@[WattEd](https://watted.ch/)
+
+</div>
+</div>
+
 ## Objectifs du cours (1/2)
 
 > À l'issue de ce cours, les personnes devraient être capables de :
@@ -82,11 +120,24 @@ Un mot de la part de notre partenaire externe, Cédric Junillon, de
 Tout est décrit dans le
 [dépôt GitHub du cours](https://github.com/heig-vd-devapplis-course/heig-vd-devapplis-course).
 
+## Ressources à votre disposition (1/2)
+
+- Nous sommes là pour vous accompagner tout au long du cours.
+- Ce cours est une mise en pratique des cours _"ModelDon"_, _"InfraDon"_ et
+  _"ProgServ1"_.
+- Vous pouvez retrouver les supports de cours aux adresses suivantes :
+  [ModelDon](TODO), [InfraDon](TODO) et
+  [ProgServ1](https://github.com/heig-vd-progserv-course/heig-vd-progserv1-course).
+- Nous sommes conscient.es que certaines personnes n'ont pas suivi ces cours
+  depuis longtemps. Peut-être faudra-t-il revoir certains concepts dans les
+  supports de cours associés.
+- N'hésitez pas à nous demander de l'aide.
+
 ## Résumé
 
-- Mise en pratique des cours _"ModelDon"_, _"InfraDon"_ et _"ProgServ1"_.
 - Projet amené par un.e mandant.e externe.
 - Développer une application web simple par équipe de deux.
+- Mise en pratique des cours _"ModelDon"_, _"InfraDon"_ et _"ProgServ1"_.
 - Respect des bonnes pratiques de développement en équipe.
 - Travail en autonomie, avec quelques présentations et points de
   synchronisation. Nous sommes là pour vous accompagner.
@@ -97,44 +148,6 @@ Tout est décrit dans le
 [dépôt GitHub du cours](https://github.com/heig-vd-devapplis-course/heig-vd-devapplis-course).**
 
 </center>
-
-## Aide à votre disposition
-
-<div class="three-columns">
-<div class="center">
-
-**Ludovic  
-Delafontaine**
-
-<img src="https://avatars.githubusercontent.com/u/5037444?v=4" alt="Ludovic Delafontaine" width="200" class="rounded">
-
-Enseignant  
-@[HEIG-VD](https://heig-vd.ch/)
-
-</div>
-<div class="center">
-
-**Noemi  
-Romano**
-
-<img src="https://avatars.githubusercontent.com/u/32194904?v=4" alt="Noemi Romano" width="200" class="rounded">
-
-Enseignante  
-@[HEIG-VD](https://heig-vd.ch/)
-
-</div>
-<div class="center">
-
-**Cédric  
-Junillon**
-
-<img src="https://media.licdn.com/dms/image/v2/C5603AQFjIaFJRM8sQQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517666644837?e=1781136000&v=beta&t=-ccCwkHHPH0er9oANiOq8byfuXSdsuvVtPvJlAG0zsc" alt="Cédric Junillon" width="200" class="rounded">
-
-Partenaire externe  
-@[WattEd](https://watted.ch/)
-
-</div>
-</div>
 
 ## Questions
 

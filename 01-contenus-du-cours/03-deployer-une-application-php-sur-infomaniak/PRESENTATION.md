@@ -37,7 +37,37 @@ adresse][contenu-complet-sur-github].
 
 ![bg opacity:0.05][illustration-principale]
 
-## TODO
+## Environnements locaux et productions
+
+- Votre environnement de développement local met à disposition tous les outils
+  nécessaires pour développer votre application web.
+- Cet environnement vous permet de développer, tester et déboguer votre
+  application.
+- Un environnement de production est un environnement où votre application est
+  déployée et accessible aux utilisateur.trices..
+- Dans ce cours, nous allons apprendre à déployer une application PHP sur
+  Infomaniak, un hébergeur web suisse.
+
+## Infomaniak
+
+- Infomaniak est un hébergeur web suisse qui propose des services d'hébergement
+  de sites web.
+- Infomaniak propose une offre étudiante qui permet de déployer des applications
+  web PHP facilement et gratuitement.
+- Nous allons utiliser cette offre pour déployer notre application web.
+
+![bg right:40%][illustration-principale]
+
+## Déployer une application PHP sur Infomaniak
+
+Un guide complet est disponible à l'adresse suivante :
+[Déployer un site ou une application web sur Internet](https://github.com/heig-vd-progserv-course/heig-vd-progserv1-course/blob/main/01-contenus-du-cours/06.02-deployer-un-site-ou-une-application-web-sur-internet/README.md).
+
+Il est recommandé de suivre ce guide pas à pas pour déployer votre application
+PHP sur Infomaniak. Un déploiement par groupe est suffisant.
+
+Nous nous attendons à ce que vous ayez une application web PHP fonctionnelle et
+accessible en ligne à la fin de ce processus.
 
 ## Questions
 
