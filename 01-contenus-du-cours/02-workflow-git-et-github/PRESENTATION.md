@@ -62,13 +62,36 @@ adresse][contenu-complet-sur-github].
 
 ![bg right:40%][illustration-principale]
 
-## Rappels sur Git et GitHub
+## Rappels sur Git et GitHub (1/2)
 
 - Git est un système de contrôle de version qui permet de suivre les
   modifications dans le code source.
 - GitHub est une plateforme en ligne qui repose sur Git pour collaborer.
 - GitHub offre de nombreuses fonctionnalités, c'est ce que nous allons étudier
   aujourd'hui.
+
+![bg right:40%][illustration-principale]
+
+## Rappels sur Git et GitHub (2/2)
+
+Git est un _"système distribué"_, ce qui signifie que le code peut être stocké à
+plusieurs endroits :
+
+- Un dépôt local sur votre machine.
+- Un dépôt distant sur GitHub.
+
+Le code peut être synchronisé entre les deux pour partager le travail.
+
+![bg right:40%][illustration-principale]
+
+## Commits, push et pull
+
+- Un commit est une "capture" de l'état de votre code à un instant $t$.
+- Plusieurs commits qui se suivent forment une branche.
+- Un push est l'action d'envoyer vos commits locaux vers le dépôt distant sur
+  GitHub.
+- Un pull est l'action de récupérer les commits du dépôt distant vers votre
+  dépôt local.
 
 ![bg right:40%][illustration-principale]
 
