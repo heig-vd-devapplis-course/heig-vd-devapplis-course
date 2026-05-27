@@ -74,15 +74,15 @@ Vous devrez exploiter ces données pour réaliser le projet.
   durant les heures de cours indiquées.
 - Vos salles de classe respectives (T102, T104 et S131) sont à votre disposition
   pour travailler en groupe durant les heures de cours.
-- Deux présentations formelles sont prévues durant la semaine pour vous donner
+- Des présentations formelles sont prévues durant la semaine pour vous donner
   des informations supplémentaires :
-  - Lundi après-midi 13:00-14:00 en R102 : présentation de l'organisation du
-    cours, du projet et du workflow Git/GitHub.
-  - Mardi matin 09:00-09:30 en R102 : présentation sur SQLite et PHP.
-  - Mercredi après-midi 13:00-13:30 en R102 : présentation l'identification et
-    la structuration des pages d'une application PHP.
-  - Jeudi après-midi 13:00-13:30 en R102 : présentation sur le déploiement d'une
-    application PHP sur Infomaniak.
+  1. Lundi après-midi 13:00-14:00 en R102 : présentation sur l'organisation du
+     cours, du projet de la part du mandant et du workflow Git/GitHub.
+  2. Mardi matin 09:00-09:30 en R102 : présentation sur SQLite et PHP.
+  3. Mercredi après-midi 13:00-13:30 en R102 : présentation sur l'identification
+     et la structuration des pages d'une application PHP.
+  4. Jeudi après-midi 13:00-13:30 en R102 : présentation sur le déploiement
+     d'une application PHP sur Infomaniak.
 - Des points de synchronisation sont prévus pour vous permettre de poser des
   questions et de discuter de votre travail. Le corps enseignant passera
   régulièrement dans les salles de classe respectives (T102, T104 et S131) pour
