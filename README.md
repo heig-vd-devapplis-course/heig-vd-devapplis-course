@@ -83,6 +83,8 @@ Vous devrez exploiter ces données pour réaliser le projet.
     l'identification et la structuration des pages d'une application PHP.
   - **Jeudi après-midi 13:00-13:30 en R102** : présentation sur le déploiement
     d'une application PHP sur Infomaniak.
+  - **Vendredi après-midi 15:00-16:00 en R102** : discussions collectives sur
+    l'expérience.
 - Des points de synchronisation sont prévus pour vous permettre de poser des
   questions et de discuter de votre travail. Le corps enseignant passera
   régulièrement dans les salles de classe respectives (T102, T104 et S131) pour
