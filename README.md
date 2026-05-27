@@ -36,7 +36,7 @@ Les détails de chaque séance composant le cours sont disponibles ci-dessous.
 |    Lundi | -                                                                                                                                                                                  | [Introduction et organisation du cours (présentation)](./01-contenus-du-cours/01-introduction-et-organisation-du-cours/README.md) + [Workflow Git et GitHub (présentation)](./01-contenus-du-cours/02-workflow-git-et-github/README.md) + Début du projet en autonomie avec organisation du travail avec Git et GitHub. |
 |    Mardi | [Utiliser SQLite avec PHP (présentation)](./01-contenus-du-cours/03-utiliser-sqlite-avec-php/README.md) + Réalisation du modèle de la base de données à partir des données brutes. | Création de la base de données.                                                                                                                                                                                                                                                                                         |
 | Mercredi | Importation des données dans la base de données.                                                                                                                                   | [Identifier et structurer les pages d'une application PHP (présentation)](./01-contenus-du-cours/04-identifier-et-structurer-les-pages-dune-application-php/README.md) + Réalisation des pages (sans interaction avec la base de données).                                                                              |
-|    Jeudi | Réalisation des pages (avec interaction avec la base de données).                                                                                                                  | [Déployer une application PHP sur Infomaniak](./01-contenus-du-cours/05-deployer-une-application-php-sur-infomaniak/README.md) + Réalisation des pages (avec interaction avec la base de données).                                                                                                                      |
+|    Jeudi | Réalisation des pages (avec interaction avec la base de données).                                                                                                                  | [Déployer une application PHP sur Infomaniak (présentation)](./01-contenus-du-cours/05-deployer-une-application-php-sur-infomaniak/README.md) + Réalisation des pages (avec interaction avec la base de données).                                                                                                       |
 | Vendredi | Finalisation de l'application avec déploiement sur Infomaniak.                                                                                                                     | Rendu du travail à 15:00 + Discussions collectives sur l'expérience.                                                                                                                                                                                                                                                    |
 
 ## 🏗️ Données à disposition
@@ -76,13 +76,13 @@ Vous devrez exploiter ces données pour réaliser le projet.
   pour travailler en groupe durant les heures de cours.
 - Des présentations formelles sont prévues durant la semaine pour vous donner
   des informations supplémentaires :
-  1. Lundi après-midi 13:00-14:00 en R102 : présentation sur l'organisation du
-     cours, du projet de la part du mandant et du workflow Git/GitHub.
-  2. Mardi matin 09:00-09:30 en R102 : présentation sur SQLite et PHP.
-  3. Mercredi après-midi 13:00-13:30 en R102 : présentation sur l'identification
-     et la structuration des pages d'une application PHP.
-  4. Jeudi après-midi 13:00-13:30 en R102 : présentation sur le déploiement
-     d'une application PHP sur Infomaniak.
+  - **Lundi après-midi 13:00-14:00 en R102** : présentation sur l'organisation
+    du cours, du projet de la part du mandant et du workflow Git/GitHub.
+  - **Mardi matin 09:00-09:30 en R102** : présentation sur SQLite et PHP.
+  - **Mercredi après-midi 13:00-13:30 en R102** : présentation sur
+    l'identification et la structuration des pages d'une application PHP.
+  - **Jeudi après-midi 13:00-13:30 en R102** : présentation sur le déploiement
+    d'une application PHP sur Infomaniak.
 - Des points de synchronisation sont prévus pour vous permettre de poser des
   questions et de discuter de votre travail. Le corps enseignant passera
   régulièrement dans les salles de classe respectives (T102, T104 et S131) pour
@@ -143,7 +143,7 @@ Note maximale : (nombre de points obtenus / nombre de points totaux) × 5 + 1.
     travail effectué**.
   - En cas de doutes, n'hésitez pas à nous contacter pour discuter de votre
     utilisation de ces outils.
-  - [Exemples de justifications de l'utilisation d'outils d'intelligence artificielle](./IA.md).
+  - [Exemples de justifications de l'utilisation d'outils d'intelligence artificielle](./JUSTIFICATIONS_IA.md).
 
 > [!CAUTION]
 >
