@@ -6,7 +6,7 @@ le cadre de ce cours.
 
 ## Exemple 1 : justification insuffisante
 
-_"J'ai utilisé ChatGPT dans le fichier `index.php`._
+_"J'ai utilisé ChatGPT dans le fichier `index.php`."_
 
 On ne sait ni comment, ni pourquoi ce code a été généré, ni comment il
 fonctionne, ni comment il s'intègre dans le projet.
@@ -58,13 +58,13 @@ de données et de les afficher sur la page d'accueil de l'application._
 _J'ai utilisé Google Gemini pour générer ce code car je voulais gagner du temps
 sur l'implémentation de cette fonction spécifique, mais j'ai veillé à comprendre
 le code généré et à l'ajuster pour qu'il corresponde à mes besoins et s'intègre
-correctement dans le projet."_
+correctement dans le projet._
 
 _J'ai utilisé Google Gemini pour générer une première version de cette fonction,
 puis j'ai revu le code généré pour m'assurer qu'il correspondait à mes besoins
 et je l'ai ajusté pour qu'il s'intègre correctement dans le projet. J'ai
 également pris le temps de comprendre le code généré pour pouvoir l'expliquer et
-le maintenir par la suite._
+le maintenir par la suite."_
 
 Ici, on sait que le code a été généré pour une fonction spécifique, on comprend
 le fonctionnement de cette fonction, on sait pourquoi elle a été générée et

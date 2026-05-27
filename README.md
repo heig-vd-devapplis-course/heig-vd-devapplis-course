@@ -55,9 +55,14 @@ Vous devrez exploiter ces données pour réaliser le projet.
   groupe dans un GitHub Classroom dédié :
   <https://classroom.github.com/a/704CgEz2>.
   - Une fois que vous avez rejoint le GitHub Classroom, sélectionnez votre
-    personne dans la liste des membres du GitHub Classroom et créez votre groupe
-    en cliquant sur "Create your team". Vous pouvez ensuite inviter votre
-    partenaire de groupe à rejoindre votre équipe.
+    personne dans la liste des membres du GitHub Classroom.
+  - Si votre groupe n'existe pas encore, créez votre groupe en cliquant sur
+    "Create your team".
+    - Lors de la création de votre groupe, nommez votre groupe avec le format
+      "2025-2026 - Nom de famille personne 1 - Nom de famille personne 2 " dans
+      l'ordre alphabétique du nom de famille (exemple : "2025-2026 - Dupont -
+      Durand").
+  - Si votre groupe existe déjà, rejoignez votre groupe en cliquant sur "Join".
   - S'il y a un nombre impair de personnes, un seul groupe de trois personnes
     est autorisé. Si plusieurs personnes veulent former des groupes de trois, un
     seul groupe final sera tiré au sort et les personnes restantes devront formé
