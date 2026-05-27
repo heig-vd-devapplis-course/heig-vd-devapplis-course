@@ -50,6 +50,8 @@ Vous devrez exploiter ces données pour réaliser le projet.
 
 ## 🫂 Organisation des groupes et travail d'équipe
 
+Les groupes et le travail d'équipe sont organisés de la manière suivante :
+
 - Par équipe de deux personnes.
 - Le choix des membres de l'équipe est libre. Les personnes inscrivent leur
   groupe dans un GitHub Classroom dédié :
@@ -92,7 +94,10 @@ Vous devrez exploiter ces données pour réaliser le projet.
 - Si vous avez des questions en dehors de ces points de synchronisation,
   n'hésitez pas à nous contacter par Teams ou par email.
 
-## 📊 Grille d'évaluation
+## 📊 Échelle d'évaluation
+
+La grille d'évaluation est basée la notation suivante pour chaque critère
+d'évaluation :
 
 - 0 point – Les critères ne sont pas respectés : la production est absente, hors
   sujet ou témoigne d'une compréhension très limitée du sujet.
@@ -105,6 +110,9 @@ Vous devrez exploiter ces données pour réaliser le projet.
 Note maximale : (nombre de points obtenus / nombre de points totaux) × 5 + 1.
 
 ## 📋 Critères d'évaluation
+
+Les critères d'évaluation sont décrits dans le tableau ci-dessous, en utilisant
+l'échelle d'évaluation décrite précédemment.
 
 |   # | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Rendu(s) attendu(s)                                                                                |
 | --: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
@@ -120,6 +128,8 @@ Note maximale : (nombre de points obtenus / nombre de points totaux) × 5 + 1.
 |  10 | L'application web est fonctionnelle et répond aux besoins du mandat.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Application web en ligne fonctionnelle.                                                            |
 
 ## 🚨 Contraintes
+
+Les contraintes pour ce cours sont les suivantes :
 
 - Toutes les personnes de l'équipe contribuent de manière équitable.
 - La documentation du projet/de l'application doit permettre à une personne
