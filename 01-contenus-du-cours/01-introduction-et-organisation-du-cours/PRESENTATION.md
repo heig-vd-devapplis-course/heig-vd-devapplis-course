@@ -120,7 +120,7 @@ Un mot de la part de notre partenaire externe, Cédric Junillon, de
 Tout est décrit dans le
 [dépôt GitHub du cours](https://github.com/heig-vd-devapplis-course/heig-vd-devapplis-course).
 
-## Ressources à votre disposition (1/2)
+## Ressources à votre disposition
 
 - Nous sommes là pour vous accompagner tout au long du cours.
 - Ce cours est une mise en pratique des cours _"ModelDon"_, _"InfraDon"_ et

@@ -62,7 +62,7 @@ adresse][contenu-complet-sur-github].
 
 ![bg right:40%][illustration-principale]
 
-## Rappels sur Git et GitHub (1/2)
+## Différences entre Git et GitHub (1/2)
 
 - Git est un système de contrôle de version qui permet de suivre les
   modifications dans le code source.
@@ -72,7 +72,7 @@ adresse][contenu-complet-sur-github].
 
 ![bg right:40%][illustration-principale]
 
-## Rappels sur Git et GitHub (2/2)
+## Différences entre Git et GitHub (2/2)
 
 Git est un _"système distribué"_, ce qui signifie que le code peut être stocké à
 plusieurs endroits :

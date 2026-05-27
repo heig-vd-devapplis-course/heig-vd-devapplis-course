@@ -31,13 +31,13 @@ concepts acquis jusqu'ici dans le cursus dans un contexte réaliste.
 
 Les détails de chaque séance composant le cours sont disponibles ci-dessous.
 
-|     Jour | Matin (8:30-12:00)                                                                                                                                                                | Après-midi (13:00-16:15)                                                                                                                                                                                                                                                                  |
-| -------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    Lundi | -                                                                                                                                                                                 | [Introduction et organisation du cours](./01-contenus-du-cours/01-introduction-et-organisation-du-cours/README.md) + [Workflow Git et GitHub](./01-contenus-du-cours/02-workflow-git-et-github/README.md) + Début du projet en autonomie avec organisation du travail avec Git et GitHub. |
-|    Mardi | Réalisation du modèle de la base de données à partir des données brutes.                                                                                                          | Création de la base de données.                                                                                                                                                                                                                                                           |
-| Mercredi | [Déployer une application PHP sur Infomaniak](./01-contenus-du-cours/03-deployer-une-application-php-sur-infomaniak/README.md) + Importation des données dans la base de données. | Identification des différentes pages à réaliser avec leur interaction et mise en page (HTML + CSS uniquement).                                                                                                                                                                            |
-|    Jeudi | Réalisation des pages avec interaction avec la base de données (HTML + CSS + PHP/PDO).                                                                                            | Réalisation des pages avec interaction avec la base de données (HTML + CSS + PHP/PDO).                                                                                                                                                                                                    |
-| Vendredi | Finalisation de l'application avec déploiement sur Infomaniak.                                                                                                                    | Rendu du travail à 15:00 + Discussions collectives sur l'expérience.                                                                                                                                                                                                                      |
+|     Jour | Matin (8:30-12:00)                                                                                                                                                                 | Après-midi (13:00-16:15)                                                                                                                                                                                                                                                                                                |
+| -------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    Lundi | -                                                                                                                                                                                  | [Introduction et organisation du cours (présentation)](./01-contenus-du-cours/01-introduction-et-organisation-du-cours/README.md) + [Workflow Git et GitHub (présentation)](./01-contenus-du-cours/02-workflow-git-et-github/README.md) + Début du projet en autonomie avec organisation du travail avec Git et GitHub. |
+|    Mardi | [Utiliser SQLite avec PHP (présentation)](./01-contenus-du-cours/03-utiliser-sqlite-avec-php/README.md) + Réalisation du modèle de la base de données à partir des données brutes. | Création de la base de données.                                                                                                                                                                                                                                                                                         |
+| Mercredi | Importation des données dans la base de données.                                                                                                                                   | [Identifier et structurer les pages d'une application PHP (présentation)](./01-contenus-du-cours/04-identifier-et-structurer-les-pages-dune-application-php/README.md) + Réalisation des pages (sans interaction avec la base de données).                                                                              |
+|    Jeudi | Réalisation des pages (avec interaction avec la base de données).                                                                                                                  | [Déployer une application PHP sur Infomaniak](./01-contenus-du-cours/05-deployer-une-application-php-sur-infomaniak/README.md) + Réalisation des pages (avec interaction avec la base de données).                                                                                                                      |
+| Vendredi | Finalisation de l'application avec déploiement sur Infomaniak.                                                                                                                     | Rendu du travail à 15:00 + Discussions collectives sur l'expérience.                                                                                                                                                                                                                                                    |
 
 ## 🏗️ Données à disposition
 
@@ -73,7 +73,10 @@ Vous devrez exploiter ces données pour réaliser le projet.
   des informations supplémentaires :
   - Lundi après-midi 13:00-14:00 en R102 : présentation de l'organisation du
     cours, du projet et du workflow Git/GitHub.
-  - Mercredi matin 09:00-09:30 en R102 : présentation sur le déploiement d'une
+  - Mardi matin 09:00-09:30 en R102 : présentation sur SQLite et PHP.
+  - Mercredi après-midi 13:00-13:30 en R102 : présentation l'identification et
+    la structuration des pages d'une application PHP.
+  - Jeudi après-midi 13:00-13:30 en R102 : présentation sur le déploiement d'une
     application PHP sur Infomaniak.
 - Des points de synchronisation sont prévus pour vous permettre de poser des
   questions et de discuter de votre travail. Le corps enseignant passera
@@ -135,125 +138,7 @@ Note maximale : (nombre de points obtenus / nombre de points totaux) × 5 + 1.
     travail effectué**.
   - En cas de doutes, n'hésitez pas à nous contacter pour discuter de votre
     utilisation de ces outils.
-  - Exemple de citation à faire dans le code ou dans le README :
-
-    <details>
-    <summary>Exemple 1 : justification insuffisante</summary>
-
-    _"J'ai utilisé ChatGPT dans le fichier `index.php`._
-
-    On ne sait ni comment, ni pourquoi ce code a été généré, ni comment il
-    fonctionne, ni comment il s'intègre dans le projet.
-
-    De plus, on ne sait pas si ce code a été utilisé pour faire une partie du
-    travail ou pour faire l'ensemble du travail.
-
-    Ce type de justification n'est **pas** acceptable.
-
-    </details>
-
-    <details>
-    <summary>Exemple 2 : justification insuffisante</summary>
-
-    _"J'ai utilisé Claude Code pour générer du code PHP dans le fichier
-    `index.php`._
-
-    _Le code a été généré pour implémenter la fonction `getArticles` de
-    l'application. Il a été intégré dans le projet après une revue et des
-    ajustements."_
-
-    Ici, on sait que le code a été généré pour une fonction spécifique, mais on
-    ne sait pas comment il fonctionne ni pourquoi il a été généré.
-
-    Ce type de justification n'est **pas** acceptable.
-
-    </details>
-
-    <details>
-    <summary>Exemple 3 : justification insuffisante</summary>
-
-    _"J'ai utilisé Perplexity AI pour générer la fonction `getArticles` du
-    fichier `index.php de l'application._
-
-    _La fonction `getArticles` a pour but de récupérer les articles depuis la
-    base de données et de les afficher sur la page d'accueil de l'application._
-
-    _J'ai utilisé Perplexity AI car je ne savais pas comment implémenter cette
-    fonction."_
-
-    Ici, on sait que le code a été généré pour une fonction spécifique, on
-    comprend le fonctionnement de cette fonction, mais on ne sait pas pourquoi
-    elle a été générée ni comment elle s'intègre dans le projet.
-
-    Ce type de justification n'est **pas** acceptable.
-
-    </details>
-
-    <details>
-    <summary>Exemple 4 : justification suffisante</summary>
-
-    _"J'ai utilisé Google Gemini pour générer la fonction `getArticles` du
-    fichier `index.php de l'application._
-
-    _La fonction `getArticles` a pour but de récupérer les articles depuis la
-    base de données et de les afficher sur la page d'accueil de l'application._
-
-    _J'ai utilisé Google Gemini pour générer ce code car je voulais gagner du
-    temps sur l'implémentation de cette fonction spécifique, mais j'ai veillé à
-    comprendre le code généré et à l'ajuster pour qu'il corresponde à mes
-    besoins et s'intègre correctement dans le projet."_
-
-    _J'ai utilisé Google Gemini pour générer une première version de cette
-    fonction, puis j'ai revu le code généré pour m'assurer qu'il correspondait à
-    mes besoins et je l'ai ajusté pour qu'il s'intègre correctement dans le
-    projet. J'ai également pris le temps de comprendre le code généré pour
-    pouvoir l'expliquer et le maintenir par la suite._
-
-    Ici, on sait que le code a été généré pour une fonction spécifique, on
-    comprend le fonctionnement de cette fonction, on sait pourquoi elle a été
-    générée et comment elle s'intègre dans le projet.
-
-    Ce type de justification est acceptable.
-
-    </details>
-
-    <details>
-    <summary>Exemple 5 : justification suffisante</summary>
-
-    _"J'ai utilisé Microsoft Copilot pour m'aider à implémenter la fonction
-    `getArticles` du fichier `index.php de l'application._
-
-    _La fonction `getArticles` a pour but de récupérer les articles depuis la
-    base de données et de les afficher sur la page d'accueil de l'application._
-
-    _J'ai utilisé Microsoft Copilot pour m'aider à implémenter cette fonction
-    spécifique en l'utilisant comme un coach dans mon processus de
-    développement._
-
-    _Il n'a pas généré de code pour moi/à ma place, mais m'a plutôt suggéré des
-    idées et des pistes pour implémenter la fonction, que j'ai ensuite
-    implémenté moi-même. J'ai veillé à comprendre les suggestions de Microsoft
-    Copilot et à les ajuster pour qu'elles correspondent à mes besoins et
-    s'intègrent correctement dans le projet."_
-
-    Ici, on sait que l'outil a été utilisé pour une fonction spécifique, on
-    comprend le fonctionnement de cette fonction, on sait pourquoi elle a été
-    utilisée et comment elle s'intègre dans le projet. De plus, on comprend que
-    l'outil a été utilisé comme un coach pour aider à implémenter la fonction,
-    et non pour générer du code à la place de la personne.
-
-    Ce type de justification est acceptable.
-
-    </details>
-
-    <details>
-    <summary>Exemple 6 : justification suffisante</summary>
-
-    _"Je n'ai pas utilisé d'outil d'intelligence artificielle pour ce projet."_
-
-    Ce type de justification est acceptable.
-
-    </details>
+  - [Exemples de justifications de l'utilisation d'outils d'intelligence artificielle](./IA.md).
 
 > [!CAUTION]
 >

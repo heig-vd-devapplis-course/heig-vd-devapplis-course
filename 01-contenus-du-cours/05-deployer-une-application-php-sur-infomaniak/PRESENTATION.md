@@ -7,7 +7,7 @@ author: L. Delafontaine, avec l'aide de GitHub Copilot
 description:
   Déployer une application PHP sur Infomaniak pour le cours DévAppliS à la
   HEIG-VD, Suisse
-url: https://heig-vd-devapplis-course.github.io/heig-vd-devapplis-course/01/contenus-du-cours/03-deployer-une-application-php-sur-infomaniak/presentation.html
+url: https://heig-vd-devapplis-course.github.io/heig-vd-devapplis-course/01/contenus-du-cours/05-deployer-une-application-php-sur-infomaniak/presentation.html
 header:
   "[**Déployer une application PHP sur Infomaniak**][contenu-complet-sur-github]"
 footer:
@@ -112,7 +112,7 @@ Est-ce que vous avez des questions ?
 [license]:
 	https://github.com/heig-vd-devapplis-course/heig-vd-devapplis-course/blob/main/LICENSE.md
 [contenu-complet-sur-github]:
-	https://github.com/heig-vd-devapplis-course/heig-vd-devapplis-course/blob/main/03-deployer-une-application-php-sur-infomaniak/README.md
+	https://github.com/heig-vd-devapplis-course/heig-vd-devapplis-course/blob/main/05-deployer-une-application-php-sur-infomaniak/README.md
 
 <!-- Illustrations -->
 

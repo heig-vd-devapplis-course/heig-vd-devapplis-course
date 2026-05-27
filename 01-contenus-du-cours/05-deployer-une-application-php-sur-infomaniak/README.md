@@ -13,9 +13,9 @@ Ce travail est sous licence [CC BY-SA 4.0][license].
 
 Le contenu de ce document est décrit dans la présentation associée, disponible
 ici :
-[Présentation (web)](https://heig-vd-devapplis-course.github.io/heig-vd-devapplis-course/01/contenus-du-cours/03-deployer-une-application-php-sur-infomaniak/presentation.html)
+[Présentation (web)](https://heig-vd-devapplis-course.github.io/heig-vd-devapplis-course/01/contenus-du-cours/05-deployer-une-application-php-sur-infomaniak/presentation.html)
 ·
-[Présentation (PDF)](https://heig-vd-devapplis-course.github.io/heig-vd-devapplis-course/01/contenus-du-cours/03-deployer-une-application-php-sur-infomaniak/03-deployer-une-application-php-sur-infomaniak-presentation.pdf).
+[Présentation (PDF)](https://heig-vd-devapplis-course.github.io/heig-vd-devapplis-course/01/contenus-du-cours/05-deployer-une-application-php-sur-infomaniak/05-deployer-une-application-php-sur-infomaniak-presentation.pdf).
 
 <!-- URLs -->
 
