@@ -44,9 +44,13 @@ Les détails de chaque séance composant le cours sont disponibles ci-dessous.
 Les données suivantes sont à votre disposition pour réaliser le projet :
 
 - [Maquette Figma](https://www.figma.com/make/Qmx2twEcduvA7RMt4LYosG/Destins-climatiques--Copy-?code-node-id=0-9&p=f&t=o6TagGM02iiodq4I-0&fullscreen=1).
-- [Données brutes](https://www.swisstransfer.com/d/75b00fc2-a3d2-4924-9603-df5d33a2659a).
 
-Vous devrez exploiter ces données pour réaliser le projet.
+Vous devrez exploiter ces données pour réaliser le projet. Vous êtes libres de
+les traiter et de les structurer comme vous le souhaitez pour les exploiter au
+mieux dans votre projet. Si des données sont manquantes ou peu claires, vous
+êtes libres de faire des hypothèses et de les compléter pour pouvoir réaliser le
+projet. N'hésitez pas à nous poser des questions si vous avez besoin de
+clarifications sur les données.
 
 ## 🫂 Organisation des groupes et travail d'équipe
 
@@ -61,9 +65,8 @@ Les groupes et le travail d'équipe sont organisés de la manière suivante :
   - Si votre groupe n'existe pas encore, créez votre groupe en cliquant sur
     "Create your team".
     - Lors de la création de votre groupe, nommez votre groupe avec le format
-      "2025-2026 - Nom de famille personne 1 - Nom de famille personne 2 " dans
-      l'ordre alphabétique du nom de famille (exemple : "2025-2026 - Dupont -
-      Durand").
+      "Nom de famille personne 1 - Nom de famille personne 2 " dans l'ordre
+      alphabétique du nom de famille (exemple : "Dupont - Durand").
   - Si votre groupe existe déjà, rejoignez votre groupe en cliquant sur "Join".
   - S'il y a un nombre impair de personnes, un seul groupe de trois personnes
     est autorisé. Si plusieurs personnes veulent former des groupes de trois, un
@@ -74,8 +77,8 @@ Les groupes et le travail d'équipe sont organisés de la manière suivante :
   les cours _"ModelDon"_, _"InfraDon"_ et _"ProgServ1"_.
 - Vous n'êtes pas autorisé.es à travailler à distance et devez être présent.es
   durant les heures de cours indiquées.
-- Vos salles de classe respectives (T102, T104 et S131) sont à votre disposition
-  pour travailler en groupe durant les heures de cours.
+- Les salles T102, T104, T133, S105 (avec une clé), S131 sont à votre
+  disposition pour travailler en groupe durant les heures de cours.
 - Des présentations formelles sont prévues durant la semaine pour vous donner
   des informations supplémentaires :
   - **Lundi après-midi 13:00-14:00 en R102** : présentation sur l'organisation
@@ -83,14 +86,13 @@ Les groupes et le travail d'équipe sont organisés de la manière suivante :
   - **Mardi matin 09:00-09:30 en R102** : présentation sur SQLite et PHP.
   - **Mercredi après-midi 13:00-13:30 en R102** : présentation sur
     l'identification et la structuration des pages d'une application PHP.
-  - **Jeudi après-midi 13:00-13:30 en R102** : présentation sur le déploiement
+  - **Jeudi après-midi 15:00-15:30 en R102** : présentation sur le déploiement
     d'une application PHP sur Infomaniak.
   - **Vendredi après-midi 15:00-16:00 en R102** : discussions collectives sur
     l'expérience.
 - Des points de synchronisation sont prévus pour vous permettre de poser des
   questions et de discuter de votre travail. Le corps enseignant passera
-  régulièrement dans les salles de classe respectives (T102, T104 et S131) pour
-  faire cela.
+  régulièrement dans les salles pour faire cela.
 - Si vous avez des questions en dehors de ces points de synchronisation,
   n'hésitez pas à nous contacter par Teams ou par email.
 
@@ -122,7 +124,7 @@ l'échelle d'évaluation décrite précédemment.
 |   4 | La base de données est correctement créée et respecte les contraintes du contexte.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Script(s) SQL et PHP.                                                                              |
 |   5 | Les données sont correctement traitées pour pouvoir les insérer ensuite dans la base de données.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Script(s) SQL et PHP.                                                                              |
 |   6 | Les données traitées sont correctement importées dans la base de données.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | Script(s) SQL et PHP.                                                                              |
-|   7 | Les pages de l'application web sont réalisées en prenant en compte que l'application se veut attractive et agréable à utiliser. Les liens entre les pages/interactions sont cohérents.<br><br>Note : essayez de suivre au mieux l'esthétique du site de la maquette mais vous pouvez modifier si besoin.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Pages PHP avec HTML et CSS associés.                                                               |
+|   7 | Les liens entre les pages/interactions sont cohérents.<br><br>Note : essayez de suivre au mieux l'esthétique du site de la maquette mais vous pouvez modifier si besoin.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Pages PHP avec HTML et CSS associés.                                                               |
 |   8 | Les pages de l'application web sont implémentées de telle manière à utiliser les informations issues de la base de données pour les afficher à l'utilisateur.trice final.e.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Pages PHP avec interaction avec la base de données (PDO).                                          |
 |   9 | L'application web est correctement déployée sur un hébergement en ligne.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Lien vers l'application en ligne.                                                                  |
 |  10 | L'application web est fonctionnelle et répond aux besoins du mandat.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Application web en ligne fonctionnelle.                                                            |
