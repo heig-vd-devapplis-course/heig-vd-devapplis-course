@@ -126,7 +126,7 @@ Tout est décrit dans le
 - Ce cours est une mise en pratique des cours _"ModelDon"_, _"InfraDon"_ et
   _"ProgServ1"_.
 - Vous pouvez retrouver les supports de cours aux adresses suivantes :
-  [ModelDon](TODO), [InfraDon](TODO) et
+  [ModelDon](TODO), [InfraDon](https://github.com/MediaComem/comem-infradon) et
   [ProgServ1](https://github.com/heig-vd-progserv-course/heig-vd-progserv1-course).
 - Nous sommes conscient.es que certaines personnes n'ont pas suivi ces cours
   depuis longtemps. Peut-être faudra-t-il revoir certains concepts dans les
