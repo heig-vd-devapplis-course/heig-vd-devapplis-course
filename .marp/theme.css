@@ -335,6 +335,7 @@ blockquote > *:first-child {
 }
 
 .two-thirds-one-third-columns {
+	gap: 2rem;
 	grid-template-columns: 2fr 1fr;
 }
 

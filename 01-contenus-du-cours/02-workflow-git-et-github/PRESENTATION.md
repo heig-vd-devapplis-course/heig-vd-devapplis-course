@@ -42,7 +42,7 @@ adresse][contenu-complet-sur-github].
 - Dans ce cours, nous souhaitons vous présenter un workflow de développement
   simple et efficace pour travailler en équipe.
 
-![bg right:40%][illustration-principale]
+![bg right:40% w:60%](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.svg)
 
 ## Utiliser Git et GitHub de façon efficace (2/3)
 
@@ -51,7 +51,7 @@ adresse][contenu-complet-sur-github].
   faire, mais plutôt une manière simple et efficace.
 - Elle reprend ce que vous avez utilisé en ProgServ1 2025-2026.
 
-![bg right:40%][illustration-principale]
+![bg right:40% w:35%](https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg)
 
 ## Utiliser Git et GitHub de façon efficace (3/3)
 
@@ -60,7 +60,8 @@ adresse][contenu-complet-sur-github].
 - Cela n'empêchera pas d'avoir des conflits de fusion, mais cela facilitera leur
   résolution.
 
-![bg right:40%][illustration-principale]
+![bg right:40% w:80%](https://wac-cdn.atlassian.com/dam/jcr:bb02240a-7d85-4f5a-ae7f-c2727b37fc79/01%20Many%20ways%20of%20referring%20to%20a%20commit.svg?cdnVersion=1210)
+![bg right:40% w:80% vertical](https://wac-cdn.atlassian.com/dam/jcr:34c86360-8dea-4be4-92f7-6597d4d5bfae/02%20Feature%20branches.svg?cdnVersion=1210)
 
 ## Différences entre Git et GitHub (1/2)
 
@@ -70,7 +71,8 @@ adresse][contenu-complet-sur-github].
 - GitHub offre de nombreuses fonctionnalités, c'est ce que nous allons étudier
   aujourd'hui.
 
-![bg right:40%][illustration-principale]
+![bg right:40% w:60%](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.svg)
+![bg right:40% w:35% vertical](https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg)
 
 ## Différences entre Git et GitHub (2/2)
 
@@ -82,7 +84,8 @@ plusieurs endroits :
 
 Le code peut être synchronisé entre les deux pour partager le travail.
 
-![bg right:40%][illustration-principale]
+![bg right:40% w:60%](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.svg)
+![bg right:40% w:35% vertical](https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg)
 
 ## Commits, push et pull
 
@@ -93,7 +96,7 @@ Le code peut être synchronisé entre les deux pour partager le travail.
 - Un pull est l'action de récupérer les commits du dépôt distant vers votre
   dépôt local.
 
-![bg right:40%][illustration-principale]
+![bg right:40% h:80%](./images/github-01.png)
 
 ## Issues (1/3)
 
@@ -103,7 +106,7 @@ Le code peut être synchronisé entre les deux pour partager le travail.
 - Elles sont très utiles pour organiser le travail en équipe et répartir les
   tâches entre les membres de l'équipe.
 
-![bg right:40%][illustration-principale]
+![bg right:40% h:80%](./images/github-02.png)
 
 ## Issues (2/3)
 
@@ -113,7 +116,7 @@ Le code peut être synchronisé entre les deux pour partager le travail.
   qu'il reste à faire.
 - Elles facilitent la communication avec les autres membres de l'équipe.
 
-![bg right:40%][illustration-principale]
+![bg right:40% h:80%](./images/github-03.png)
 
 ## Issues (3/3)
 
@@ -122,7 +125,7 @@ Le code peut être synchronisé entre les deux pour partager le travail.
 - Distribuez les issues entre les membres de l'équipe.
 - Videz votre cerveau pour ne rien oublier !
 
-![bg right:40%][illustration-principale]
+![bg right:40% h:80%](./images/github-04.png)
 
 ## Branches (1/3)
 
@@ -131,7 +134,7 @@ Le code peut être synchronisé entre les deux pour partager le travail.
 - La branche principale (main) doit toujours être dans un état fonctionnel.
 - Chaque branche représente une ligne de développement distincte.
 
-![bg right:40%][illustration-principale]
+![bg right:40% h:80%](./images/github-05.png)
 
 ## Branches (2/3)
 
@@ -141,7 +144,7 @@ Le code peut être synchronisé entre les deux pour partager le travail.
   travailler sur différentes parties du projet en même temps.
 - Il est possible de créer une branche directement depuis une issue.
 
-![bg right:40%][illustration-principale]
+![bg right:40% h:80%](./images/github-06.png)
 
 ## Branches (3/3)
 
@@ -151,7 +154,8 @@ Le code peut être synchronisé entre les deux pour partager le travail.
 - Basculez localement sur la branche pour travailler sur l'issue.
 - Commitez régulièrement vos modifications sur cette branche.
 
-![bg right:40%][illustration-principale]
+![bg right:40% w:80%](./images/github-07.png)
+![bg right:40% w:80% vertical](./images/github-08.png)
 
 ## Pull requests (1/3)
 
@@ -162,7 +166,7 @@ Le code peut être synchronisé entre les deux pour partager le travail.
 - C'est un moment important pour discuter des modifications apportées et
   s'assurer que le code est de qualité.
 
-![bg right:40%][illustration-principale]
+![bg right:40% h:80%](./images/github-09.png)
 
 ## Pull requests (2/3)
 
@@ -172,7 +176,8 @@ Le code peut être synchronisé entre les deux pour partager le travail.
 - La pull request doit être revue avant d'être fusionnée.
 - Une fois fusionnée, la branche peut être supprimée.
 
-![bg right:40%][illustration-principale]
+![bg right:40% w:80%](./images/github-10.png)
+![bg right:40% w:80% vertical](./images/github-11.png)
 
 ## Pull requests (3/3)
 
@@ -181,7 +186,8 @@ Le code peut être synchronisé entre les deux pour partager le travail.
 - Les pull requests permettent de maintenir la qualité du code et de faciliter
   la collaboration entre les membres de l'équipe.
 
-![bg right:40%][illustration-principale]
+![bg right:40% w:80%](./images/github-12.png)
+![bg right:40% w:80% vertical](./images/github-13.png)
 
 ## Revue de code (1/2)
 
@@ -192,7 +198,7 @@ Le code peut être synchronisé entre les deux pour partager le travail.
 - Il est possible de commenter des lignes spécifiques du code et de demander des
   améliorations.
 
-![bg right:40%][illustration-principale]
+![bg right:40% h:80%](./images/github-14.png)
 
 ## Revue de code (2/2)
 
@@ -201,7 +207,7 @@ Le code peut être synchronisé entre les deux pour partager le travail.
 - N'hésitez pas à demander des commentaires sur votre code et à commenter le
   code des autres en mettant l'autre personne "reviewer" de la pull request.
 
-![bg right:40%][illustration-principale]
+![bg right:40% h:80%](./images/github-15.png)
 
 ## Fusion de code (1/4)
 
@@ -212,7 +218,7 @@ Le code peut être synchronisé entre les deux pour partager le travail.
 - Après la fusion, la branche de travail peut être supprimée pour éviter
   l'encombrement.
 
-![bg right:40%][illustration-principale]
+![bg vertical right:40% contain](https://dam-cdn.atl.orangelogic.com/AssetLink/ljxme1dfx4e5606wi12a6k388038dvuf.png)
 
 ## Fusion de code (2/4)
 
@@ -222,7 +228,7 @@ Le code peut être synchronisé entre les deux pour partager le travail.
   - Squash and merge.
   - Rebase and merge.
 
-![bg right:40%][illustration-principale]
+![bg vertical right:40% contain](https://dam-cdn.atl.orangelogic.com/AssetLink/d54018nq423762vgh32g4m2o0d4iti3g.png)
 
 ## Fusion de code (3/4)
 
@@ -232,7 +238,8 @@ Le code peut être synchronisé entre les deux pour partager le travail.
   l'historique plus propre.
 - Rebase : méthode avancée de fusion qui réécrit l'historique.
 
-![bg right:40%][illustration-principale]
+![bg vertical right:40% contain](https://wac-cdn.atlassian.com/dam/jcr:4639eeb8-e417-434a-a3f8-a972277fc66a/02%20Merging%20main%20into%20the%20feature%20branh.svg?cdnVersion=1210)
+![bg vertical right:40% contain](https://wac-cdn.atlassian.com/dam/jcr:a712e238-6cb9-4c8c-8ef7-1975dca49be3/04%20Squashing%20a%20commit%20with%20an%20interactive%20rebase.svg?cdnVersion=1210)
 
 ## Fusion de code (4/4)
 
@@ -242,9 +249,12 @@ Le code peut être synchronisé entre les deux pour partager le travail.
   commit lors de la fusion, ce qui facilite la lecture de l'historique du
   projet.
 
-![bg right:40%][illustration-principale]
+![bg vertical right:40% contain](https://dam-cdn.atl.orangelogic.com/AssetLink/d54018nq423762vgh32g4m2o0d4iti3g.png)
 
-## Conflits de fusion (1/3)
+## Conflits de fusion (1/2)
+
+<div class="two-thirds-one-third-columns">
+<div>
 
 - Parfois, il peut y avoir des conflits de fusion lorsque deux branches
   modifient les mêmes choses.
@@ -253,25 +263,60 @@ Le code peut être synchronisé entre les deux pour partager le travail.
 - La résolution de conflits peut être délicate, mais c'est une compétence
   importante à maîtriser.
 
-![bg right:40%][illustration-principale]
+</div>
+<div>
 
-## Conflits de fusion (2/3)
+```diff
+<<<<<<< HEAD (votre branche)
+Code 1
+======= (séparateur)
+Code 2
+>>>>>>> main (autre branche)
+```
+
+<small>Ce conflit survient parce que deux personnes ont modifié la même partie
+du code.</small>
+
+</div>
+</div>
+
+## Conflits de fusion (2/2)
+
+<div class="two-thirds-one-third-columns">
+<div>
 
 - Lorsqu'un conflit de fusion se produit, GitHub et/ou Visual Studio Code vous
   montrera les fichiers en conflit et les parties du code qui posent problème.
 - Vous devrez décider comment résoudre le conflit en choisissant quelle version
   du code conserver ou en combinant les deux versions.
+- Une fois le conflit résolu, vous devrez commiter les modifications.
 
-![bg right:40%][illustration-principale]
+</div>
+<div>
 
-## Conflits de fusion (3/3)
+```diff
+<<<<<<< HEAD (votre branche)
+Code 1
+======= (séparateur)
+Code 2
+>>>>>>> main (autre branche)
+```
 
-- Une fois le conflit résolu, vous devrez commiter les modifications pour
-  finaliser la fusion.
-- Illustrons ce processus avec un scénario réaliste de workflow Git et GitHub
-  avec gestion de conflit.
+<small>Conserver votre version du code ?
 
-![bg right:40%][illustration-principale]
+L'autre version ?
+
+Ou une combinaison des deux ?</small>
+
+</div>
+</div>
+
+## Illustration du workflow
+
+<!-- _class: lead -->
+
+Illustrons ce processus avec un scénario réaliste de workflow Git et GitHub avec
+gestion de conflit.
 
 ---
 
@@ -374,7 +419,7 @@ GitHub permet de forcer l'utilisation de ces pratiques, par exemple :
   [documentation complète sur Markdown](https://docs.github.com/en/get-started/writing-on-github)
   est là pour vous aider.
 
-![bg right:40%][illustration-principale]
+![bg right:40% h:80%](./images/markdown-01.png)
 
 ## Markdown (2/2)
 
@@ -384,7 +429,7 @@ GitHub permet de forcer l'utilisation de ces pratiques, par exemple :
 - Utilisez Markdown pour rédiger de la documentation claire et structurée pour
   votre projet.
 
-![bg right:40%][illustration-principale]
+![bg right:40% h:80%](./images/markdown-02.png)
 
 ## GitHub Classroom, Visual Studio et Docker
 
